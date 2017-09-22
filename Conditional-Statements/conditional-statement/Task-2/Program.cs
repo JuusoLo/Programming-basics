@@ -6,6 +6,7 @@ namespace Task_2
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             // Define instructions
             Console.WriteLine("Ohjelma selvittää onko syötetty luku parillinen tai pariton.");
             bool isNumber;
