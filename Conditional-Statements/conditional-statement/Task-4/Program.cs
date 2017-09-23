@@ -11,7 +11,7 @@ namespace Task_4
             Console.WriteLine("Ohjelma lajittelee luvut nousevaan järjestykseen. Syötä kolme lukua.");
             
            
-                Console.Write("Syötä luku 1/3: ");
+                Console.Write("Syötä luku 1/3:");
                 // defain variables
                 string userInput;
 
@@ -20,22 +20,24 @@ namespace Task_4
                 int numberX;
                 int.TryParse(userInput, out numberX);
 
-            Console.Write("Syötä luku 2/3: ");
+            Console.Write("Syötä luku 2/3:");
 
             userInput = Console.ReadLine();
 
             int numberY;
             int.TryParse(userInput, out numberY);
 
-            Console.Write("Syötä luku 2/3: ");
+            Console.Write("Syötä luku 3/3:");
 
             userInput = Console.ReadLine();
 
             int numberZ;
             int.TryParse(userInput, out numberZ);
 
+
             // logic
-            if (numberX < numberY)
+            if (numberX < numberZ== true)
+            if (numberX < numberZ)
             {
                 if (numberX < numberZ)
                 {
@@ -56,7 +58,22 @@ namespace Task_4
             }
             else
             {
-                if(numberX<numberZ)
+                if(numberX < numberZ == false)
+                {
+                    if(numberY < numberZ)
+                    {
+                        Console.WriteLine($"{numberZ}, {numberY},{numberX}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{numberY}, {numberZ},{numberX}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"{numberY}, {numberX},{numberZ}");
+                }
+
             }
 
             // Check isNumber
