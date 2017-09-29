@@ -9,76 +9,63 @@ namespace Task_4
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             // Define instructions
             Console.WriteLine("Ohjelma lajittelee luvut nousevaan järjestykseen. Syötä kolme lukua.");
-            
-           
+            {
+
                 Console.Write("Syötä luku 1/3:");
                 // defain variables
-                string userInput;
+                string numero1 = Console.ReadLine();
 
-                userInput = Console.ReadLine();
+                int numx = int.Parse(numero1);
 
-                int numberX;
-                int.TryParse(userInput, out numberX);
+                Console.Write("Syötä luku 2/3:");
+                string numero2 = Console.ReadLine();
 
-            Console.Write("Syötä luku 2/3:");
+                int numy = int.Parse(numero2);
 
-            userInput = Console.ReadLine();
+                Console.Write("Syötä luku 3/3:");
+                string numero3 = Console.ReadLine();
 
-            int numberY;
-            int.TryParse(userInput, out numberY);
-
-            Console.Write("Syötä luku 3/3:");
-
-            userInput = Console.ReadLine();
-
-            int numberZ;
-            int.TryParse(userInput, out numberZ);
+                int numz = int.Parse(numero3);
 
 
-            // logic
-            if (numberX < numberZ== true)
-            if (numberX < numberZ)
-            {
-                if (numberX < numberZ)
+
+                if (numx < numy && numx < numz)
                 {
-                    if (numberY < numberZ)
+                    if (numy < numz)
                     {
-                        Console.WriteLine($"{numberX}, {numberY},{numberZ}");
+                        Console.WriteLine($"Järjestys on {numx}, {numy}, {numz}.");
                     }
                     else
                     {
-                        Console.WriteLine($"{numberX}, {numberZ},{numberY}");
+                        Console.WriteLine($"Järjestys on {numx}, {numz}, {numy}.");
                     }
                 }
-                else
+                if (numy < numx && numy < numz)
                 {
-                    Console.WriteLine($"{numberZ}, {numberX},{numberY}");
-                }
-
-            }
-            else
-            {
-                if(numberX < numberZ == false)
-                {
-                    if(numberY < numberZ)
+                    if (numx < numz)
                     {
-                        Console.WriteLine($"{numberZ}, {numberY},{numberX}");
+                        Console.WriteLine($"Järjestys on {numy}, {numx}, {numz}.");
                     }
                     else
                     {
-                        Console.WriteLine($"{numberY}, {numberZ},{numberX}");
+                        Console.WriteLine($"Järjestys on {numy}, {numz}, {numx}.");
                     }
                 }
-                else
+
+                if (numz < numy && numz < numx)
                 {
-                    Console.WriteLine($"{numberY}, {numberX},{numberZ}");
+                    if (numx < numy)
+                    {
+                        Console.WriteLine($"Järjestys on {numz}, {numx}, {numy}.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Järjestys on {numz}, {numy}, {numx}.");
+                    }
                 }
 
+                Console.ReadKey();
             }
-
-            // Check isNumber
-
-            Console.ReadKey();
         }
     }
 }
