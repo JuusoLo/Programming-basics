@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Task_5
+namespace loop_example
 {
     class Program
     {

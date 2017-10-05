@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task-4", "Task-4\Task-4.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuokaavio-2", "vuokaavio-2\vuokaavio-2.csproj", "{2E60F4C5-38C9-482F-8DD4-55A7935F2397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-5", "Task-5\Task-5.csproj", "{D64F069C-F046-4C51-BB05-F0778F71FBE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop_example", "Task-5\loop_example.csproj", "{D64F069C-F046-4C51-BB05-F0778F71FBE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
