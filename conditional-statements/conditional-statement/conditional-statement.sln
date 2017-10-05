@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task-3.1", "Task-3.1\Task-3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task-4", "Task-4\Task-4.csproj", "{7304CC9C-2DBB-43C8-82CF-49926D06BBA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vuokaavio-2", "vuokaavio-2\vuokaavio-2.csproj", "{2E60F4C5-38C9-482F-8DD4-55A7935F2397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuokaavio-2", "vuokaavio-2\vuokaavio-2.csproj", "{2E60F4C5-38C9-482F-8DD4-55A7935F2397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-5", "Task-5\Task-5.csproj", "{D64F069C-F046-4C51-BB05-F0778F71FBE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2E60F4C5-38C9-482F-8DD4-55A7935F2397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E60F4C5-38C9-482F-8DD4-55A7935F2397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E60F4C5-38C9-482F-8DD4-55A7935F2397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64F069C-F046-4C51-BB05-F0778F71FBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64F069C-F046-4C51-BB05-F0778F71FBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64F069C-F046-4C51-BB05-F0778F71FBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64F069C-F046-4C51-BB05-F0778F71FBE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
