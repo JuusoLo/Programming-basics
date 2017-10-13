@@ -7,7 +7,7 @@ namespace loop_example_2
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("Ohjelma laskee. Anna luku, jonka mistä summa lasketaan:");
+            Console.WriteLine("Ohjelma laskee. Anna luku, mistä summa lasketaan:");
             string userInput = Console.ReadLine();
             int number = int.Parse(userInput);
             //int.TryParse(userInput, out int number);
