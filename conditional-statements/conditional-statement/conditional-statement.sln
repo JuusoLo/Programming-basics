@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vuokaavio-2", "vuokaavio-2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop_example", "Task-5\loop_example.csproj", "{D64F069C-F046-4C51-BB05-F0778F71FBE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop_example_2", "loop_example_2\loop_example_2.csproj", "{BAD90B5B-4C20-4129-8B77-140B4C97BBFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop_example_2", "loop_example_2\loop_example_2.csproj", "{BAD90B5B-4C20-4129-8B77-140B4C97BBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop_example_3", "loop_example_3\loop_example_3.csproj", "{6D80DF8F-E2AB-4ABF-B465-9F0F7AF612C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop_example_3", "loop_example_3\loop_example_3.csproj", "{6D80DF8F-E2AB-4ABF-B465-9F0F7AF612C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funktio_Teht.1", "Funktio_Teht.1\Funktio_Teht.1.csproj", "{EC7B00D4-DA64-4537-A80C-6355A50BFF1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6D80DF8F-E2AB-4ABF-B465-9F0F7AF612C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D80DF8F-E2AB-4ABF-B465-9F0F7AF612C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D80DF8F-E2AB-4ABF-B465-9F0F7AF612C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7B00D4-DA64-4537-A80C-6355A50BFF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7B00D4-DA64-4537-A80C-6355A50BFF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7B00D4-DA64-4537-A80C-6355A50BFF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7B00D4-DA64-4537-A80C-6355A50BFF1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
