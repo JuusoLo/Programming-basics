@@ -7,6 +7,7 @@ namespace conditional_statement
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             // Define instructions
             Console.WriteLine("Ohjelma tulostaa positiivinen, negatiivinen tai nolla.");
             bool isNumber;
