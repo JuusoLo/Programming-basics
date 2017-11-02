@@ -23,7 +23,6 @@ namespace Task_3
                 Console.WriteLine("Syötä numero väliltä 1-100: ");
                 isNumber = int.TryParse(Console.ReadLine(), out input);
 
-                // Tarkistetaan onko luku sallitulta väliltä
                 if (input >= lowerbound && input <= upperbound)
                 {
                     ret = input;
@@ -31,7 +30,6 @@ namespace Task_3
                 }
                 else
                 {
-                    // Luku ei ole sallittu tai ei ole numero, looppi alkaa alusta
                     isNumber = false;
                 }
             }
