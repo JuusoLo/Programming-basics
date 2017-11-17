@@ -5,9 +5,15 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taulukot", "Taulukot\Taulukot.csproj", "{DF16AF98-79FB-43C5-B3D5-60B09FBD6CA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taulukot_2", "Taulukot_2\Taulukot_2.csproj", "{20D33077-57C7-4CB1-9B6D-C1678674D7F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taulukot_2", "Taulukot_2\Taulukot_2.csproj", "{20D33077-57C7-4CB1-9B6D-C1678674D7F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto_v2", "Lotto_v2\Lotto_v2.csproj", "{8EB430C4-36E4-48A0-8988-16FA79616C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto_v2", "Lotto_v2\Lotto_v2.csproj", "{8EB430C4-36E4-48A0-8988-16FA79616C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taulukot_3.1", "Taulukot_3\Taulukot_3.1.csproj", "{6A308213-6A61-48AD-A6E1-F4A586E7E95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taulukot_3.2", "Taulukot_3.2\Taulukot_3.2.csproj", "{A823D859-7419-45C1-AE98-1AC32F951296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taulukot_3.3", "Taulukot_3.3\Taulukot_3.3.csproj", "{56BDDD8C-15EE-411E-9953-2E7AFE996601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{8EB430C4-36E4-48A0-8988-16FA79616C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB430C4-36E4-48A0-8988-16FA79616C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB430C4-36E4-48A0-8988-16FA79616C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A308213-6A61-48AD-A6E1-F4A586E7E95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A308213-6A61-48AD-A6E1-F4A586E7E95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A308213-6A61-48AD-A6E1-F4A586E7E95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A308213-6A61-48AD-A6E1-F4A586E7E95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A823D859-7419-45C1-AE98-1AC32F951296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A823D859-7419-45C1-AE98-1AC32F951296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A823D859-7419-45C1-AE98-1AC32F951296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A823D859-7419-45C1-AE98-1AC32F951296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BDDD8C-15EE-411E-9953-2E7AFE996601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BDDD8C-15EE-411E-9953-2E7AFE996601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BDDD8C-15EE-411E-9953-2E7AFE996601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BDDD8C-15EE-411E-9953-2E7AFE996601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
