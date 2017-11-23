@@ -43,6 +43,8 @@ namespace Taulukot_3._3
             }
             Console.Write("         ");
             for (int i = 0; i < 15; i++)
+
+                //Taulukon viivat
             {
                 Console.Write("--");
             }
