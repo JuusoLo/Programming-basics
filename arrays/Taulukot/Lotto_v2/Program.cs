@@ -13,7 +13,7 @@ namespace Lotto_v2
             //Arvotaan seitsemän eri lukua
             while (i < 7)
             {
-                int rndNumber = rnd.Next(0, 40);
+                int rndNumber = rnd.Next(0, 41);
                 if (arrayNumber[rndNumber] == 0)
                 {
                     arrayNumber[rndNumber] = 1;
@@ -30,7 +30,7 @@ namespace Lotto_v2
             }
             while (true)
             {
-                int rndNumber = rnd.Next(0, 40);
+                int rndNumber = rnd.Next(0, 41);
                 if (arrayNumber[rndNumber] == 0)
                 {
                     arrayNumber[rndNumber] = 2;
@@ -45,7 +45,7 @@ namespace Lotto_v2
                     Console.WriteLine($"Lisänumero:{i}");
                 }
             }
-            Console.Write($"Tuplausnumero:{rnd.Next(0, 40)}");
+            Console.Write($"Tuplausnumero:{rnd.Next(0, 41)}");
             Console.ReadKey();
 
 
