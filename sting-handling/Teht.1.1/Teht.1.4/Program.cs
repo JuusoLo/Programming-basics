@@ -17,11 +17,11 @@ namespace Teht._1._4
             }
             if (UserInput.Replace(" ", "") == reverseUserInput.Replace(" ", ""))
             {
-                Console.WriteLine($"Syöttämäsi teksti,{UserInput.ToLower()} on palidromi");
+                Console.WriteLine($"Syöttämäsi teksti,{UserInput.ToLower()} on palindromi");
             }
             else
             {
-                Console.WriteLine($"Syöttämäsi teksti,{UserInput.ToLower()} ei ole palidromi!");
+                Console.WriteLine($"Syöttämäsi teksti,{UserInput.ToLower()} ei ole palindromi!");
             }
             Console.ReadKey();
         }
